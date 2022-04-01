@@ -1,0 +1,16 @@
+footer{
+    background-color: rgb(80, 145, 150);
+    box-shadow: rgba(85, 85, 85, 0.5) 0px 0px 3px 0px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    line-height: 0;
+    padding: 1em;
+    margin-bottom: 0;
+}
+.app{
+    text-align: center;
+}
+.version{
+    text-align: right;
+}

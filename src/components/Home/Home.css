@@ -1,0 +1,15 @@
+main{
+    background: rgb(255, 255, 255) no-repeat center fixed;
+    background-image: url("../../Recruitment-Word-Cloud.jpeg") ;
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 1.5em;
+    text-rendering: optimizelegibility;
+}
