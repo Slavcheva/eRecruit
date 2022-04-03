@@ -1,11 +1,14 @@
 header{
     background-color: rgb(80, 145, 150);
-    box-shadow: rgba(85, 85, 85, 0.5) 0px 0px 3px 0px;
+    box-shadow: rgba(85, 85, 85, 0.5) 0 0 3px 0;
     box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.87);
     display: block;
-    /*height: 59px;*/
     line-height: 1em;
     padding: 1em;
-
+    cursor: pointer;
+}
+header a{
+    /*box-shadow: rgba(85, 85, 85, 0.5) 0 0 3px 0;*/
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
 }
