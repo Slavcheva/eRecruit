@@ -6,7 +6,6 @@ const candidateService = {
                 'Content-type': 'application/json',
                 'Accept': 'application/json'
             },
-
         }).then(res => res.json())
     },
     create: function (data) {
@@ -16,7 +15,6 @@ const candidateService = {
                 'Content-type': 'application/json'
             },
             body: JSON.stringify(data),
-
         }).then(res => res.json());
     },
     update: function (id, data) {

@@ -1,3 +1,48 @@
-.jobs {
-    background-image: none !important;
+div .jobs-page, .jobs{
+    background-color: white;
+    border-bottom: white;
+}
+.orders-table .order-table-wrapper {
+    overflow: scroll;
+    width: 100%;
+}
+body .no-border {
+    border: none!important;
+}
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.orders-table .table-head {
+    background-color: #eee;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 14px;
+    font-weight: 400;
+}
+.orders-table .table-cell, .orders-table .table-head {
+    padding: 8px;
+    white-space: nowrap;
+
+}
+body .no-border {
+    border: none!important;
+}
+.table-cell, table>thead>tr>th {
+    vertical-align: middle!important;
 }

@@ -3,7 +3,6 @@ import {Route, Routes} from "react-router-dom";
 import "./Main.css";
 
 import Search from "../Search/Search";
-import TabBarList from "../TabBarList/TabBarList";
 import Home from "../Home/Home";
 import Jobs from "../Jobs/Jobs";
 import Candidates from "../Candidates/Candidates";

@@ -11,7 +11,7 @@
     padding-left: 0;
     list-style: none;
     float: none;
-    border: 1px solid #ddd;
+    /*border: 1px solid #ddd;*/
     text-align: center;
     display: flex;
     flex-direction: row;
