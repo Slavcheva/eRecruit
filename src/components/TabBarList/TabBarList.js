@@ -1,17 +1,27 @@
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
+
 import "./TabBarList.css"
 
 export default function TabBarList() {
     return (
-        <nav className="tab-list">
+        <nav className="nav-links">
             <ul className="nav-links">
-                <Link to="/jobs" className="nav-item jobs">All Jobs</Link>
-                <Link to="/candidates" className="nav-item candidates">All Candidates</Link>
-                <Link to="/approved" className="nav-item approved">Approved Candidates</Link>
-                <Link to="/rejected" className="nav-item rejected">Rejected Candidates</Link>
-                <Link to="/interviews" className="nav-item interviews">Interviews</Link>
+                <NavLink to="/jobs" className={({isActive}) => (isActive ? "link-active" : "link")}>
+                    All Jobs
+                </NavLink>
+                <NavLink to="/candidates" className={({isActive}) => (isActive ? "link-active" : "link")}>
+                    All Candidates
+                </NavLink>
+                <NavLink to="/approved" className={({isActive}) => (isActive ? "link-active" : "link")}>
+                    Approved Candidates
+                </NavLink>
+                <NavLink to="/rejected" className={({isActive}) => (isActive ? "link-active" : "link")}>
+                    Rejected Candidates
+                </NavLink>
+                <NavLink to="/interviews" className={({isActive}) => (isActive ? "link-active" : "link")}>
+                    Interviews
+                </NavLink>
             </ul>
         </nav>
-
     )
 }

@@ -17,9 +17,10 @@
     flex-direction: row;
 }
 
-.nav-item{
+.link{
     flex-grow: 1;
-    background-color: transparent;
+    /*background-color: transparent;*/
+    background-color: #eee;
     color: #222;
     padding: 2em;
     margin-right: 2px;
@@ -28,7 +29,7 @@
     text-decoration: none;
 }
 
-.nav-item a{
+.link a{
     text-decoration: none;
     cursor: default;
     pointer-events: none;
@@ -37,7 +38,16 @@
     text-align: center;
 }
 
-.nav-item a:hover {
+.link a:hover {
     text-decoration: none;
     background-color: white;
+}
+.link-active{
+    flex-grow: 1;
+    background-color: transparent;
+    color: #222;
+    padding: 2em;
+    margin-right: 2px;
+    border: 1px solid transparent;
+    text-decoration: none;
 }
