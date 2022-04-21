@@ -3,6 +3,7 @@ import React from "react";
 import './Jobs.css'
 import TabBarList from "../TabBarList/TabBarList";
 import jobService from "../../services/job-service";
+import QuickMenu from "../QuickMenu/QuickMenu";
 
 const Jobs = () => {
 
@@ -17,6 +18,7 @@ const Jobs = () => {
     return (
         <div className="jobs-page">
             <TabBarList/>
+            <QuickMenu title="Add New Job"/>
             <h2>All Jobs</h2>
             {jobs
                 ? <ul>

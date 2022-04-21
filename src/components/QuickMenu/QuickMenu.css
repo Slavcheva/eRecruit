@@ -1,0 +1,15 @@
+.quick-menu{
+    /*background-color: navajowhite;*/
+    padding: 2em;
+}
+.quick-menu button{
+    background-color: rgb(80, 145, 150);
+    color: white;
+    height: 2em;
+    border-radius: 0.5em;
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-width: 1px;
+    margin: 1em;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
